@@ -1,0 +1,86 @@
+header{
+background-image: url('img/dandelion.jpg');
+height: 300px;
+background-position: contain;
+background-repeat: no-repeat;
+
+}
+
+footer{
+    background-image: url('img/dandy.gif');
+    height: 300px;
+    background-position: contain;
+    background-repeat: no-repeat;
+    grid-area: f;
+
+}
+aside{
+    background-image: url('img/dand3.jpg');
+    height: 300px;
+    width: 100%;
+    background-position: contain;
+    background-repeat: no-repeat;
+    grid-area: a;
+
+}
+article{
+    background-image: url('img/dandy2.gif');
+    height: 300px;
+    background-position: contain;
+    background-repeat: no-repeat;
+    grid-area: ar;
+
+}
+nav{
+    background-image: url('img/dand2.jpg');
+    height: 300px;
+    background-position: contain;
+    background-repeat: no-repeat;
+    grid-area:n ;
+
+}
+#fotartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    'h n n'
+    'a f ar'
+
+
+}
+#fotartalom *{
+    color: aliceblue;
+    text-align:  right;
+    padding: spx;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 200px;
+}
+#menu{
+    background-color: blue;
+    opacity: 0.5;
+    height: 25px;
+
+}
+menu a{
+    float: left ;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aliceblue;
+    opacity: 1;
+
+    
+}
+#menu a:hover{
+opacity: 1;
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}

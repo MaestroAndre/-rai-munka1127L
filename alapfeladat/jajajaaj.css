@@ -1,0 +1,33 @@
+sz1{
+    grid-template-areas: s1;
+
+}
+sz2{
+    grid-template-areas: s2;
+
+}
+
+sz3{
+    grid-template-areas: s3;
+
+}
+sz4{
+    grid-template-areas: s4;
+
+}
+kep{
+    grid-template-areas: k;
+
+}
+
+
+
+#fotartalom{
+
+    display: grid;
+    grid-template-areas: 
+    's1 s4 s4'
+    's1 k s2'
+    's3 s3 s3'
+    '';
+}
